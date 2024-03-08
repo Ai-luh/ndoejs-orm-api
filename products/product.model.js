@@ -14,4 +14,4 @@ function model(sequelize) {
     return sequelize.define('Product', attributes);
 }    
 
-//product
+//product updated

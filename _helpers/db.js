@@ -22,4 +22,4 @@ async function initialize() {
     // sync all models with database
     await sequelize.sync({ alter: true });
 
-}
+}//updated

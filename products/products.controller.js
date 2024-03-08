@@ -67,4 +67,4 @@ function updateSchema(req, res, next) {
         image: Joi.number().required(),
     })
     validateRequest(req, next, schema);
-}
+}//updated

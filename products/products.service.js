@@ -53,4 +53,4 @@ async function getProduct(id) {
     const Product =  await db.User.findByPk(id);
     if (!product) throw 'User not found';
     return product;
-}
+}//updated
